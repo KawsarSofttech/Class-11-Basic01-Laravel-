@@ -8,7 +8,7 @@
 {{--    <h2>User: {{$user}} </h2>--}}
 
     <h1>Welcome to Laravel Family</h1>
-    <h2>User: {{ $user }} </h2>
+    <h2>User: {{ $user }}, {{ $age }}yrs </h2>
     @foreach($food as $f)
         <li>{{ $f }}</li>
     @endforeach
